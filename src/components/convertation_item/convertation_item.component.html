@@ -1,0 +1,19 @@
+<div class="convr_item" *ngIf="info">
+  <div class="container">
+    <input class="input" [(ngModel)]="amountFrom" (input)="selectedFrom()" placeholder=""/>
+    <select class="select" [(ngModel)]="selectedCurrencyFrom" (change)="selectedFrom()" name="" id="">
+      <option [value]="defaultCurrencyFrom.label" selected="selected">UAH</option>
+      <option>EUR</option>
+      <option>USD</option>
+    </select>
+  </div>
+
+  <div>
+    <input class="input" [(ngModel)]="amountTo" (input)="selectedTo()" placeholder=""/>
+    <select class="select" [(ngModel)]="selectedCurrencyTo" (change)="selectedTo()" name="" id="">
+      <option>UAH</option>
+      <option [value]="defaultCurrencyTo.label" selected="selected">EUR</option>
+      <option>USD</option>
+    </select>
+  </div>
+</div>

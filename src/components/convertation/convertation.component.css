@@ -1,0 +1,24 @@
+.convertation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 30vw;
+    margin-top: 120px;
+    background-color: #f095e2;
+    border: 3px solid black;
+    border-radius: 50px;
+    box-shadow: 7px 7px 0px black;
+}
+
+.title{
+    font-size: 30px;
+    color: #151010;
+    background-color: #f0d095;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom: 3px solid black;
+}

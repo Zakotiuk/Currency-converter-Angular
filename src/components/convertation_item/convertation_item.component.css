@@ -1,0 +1,30 @@
+.convr_item{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.convr_item .container{
+    margin-bottom: 10px;
+}
+
+.convr_item .input{
+    outline: none;
+    padding-left: 50px;
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.convr_item .select{
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.convr_item .hr{
+    border-color: black;
+}
